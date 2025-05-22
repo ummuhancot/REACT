@@ -1,5 +1,5 @@
 import React from "react";
-import "./Styling05.scss";
+
 export const Styling05 = () => {
   return (
     <div className="titles">
