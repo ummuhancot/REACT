@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Sony WH-1000XM6",
+    "description": "Experience the next level of noise cancellation with Sony's flagship headphones.",
+    "price": 349.99,
+    "image": "WH-1000XM6.png"
+  },
+  {
+    "id": "2",
+    "name": "Bose QuietComfort 45",
+    "description": "Enjoy world-class noise cancellation and comfort with Bose's latest model.",
+    "price": 329.0,
+    "image": "BoseQuietcomfort.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Apple AirPods Max",
+    "description": "Premium over-ear headphones with exceptional sound quality and active noise cancellation.",
+    "price": 549.0,
+    "image": "AirPodsMax.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Sennheiser Momentum 4",
+    "description": "High-end headphones with superior sound and adaptive noise cancellation.",
+    "price": 349.95,
+    "image": "Momentum4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "JBL Tour One M3",
+    "description": "Premium headphones with adaptive noise cancellation and long battery life.",
+    "price": 299.95,
+    "image": "JBLTourOneM3.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Sony WH-1000XM5",
+    "description": "Next-generation noise-cancelling headphones with improved sound quality and comfort.",
+    "price": 299.99,
+    "image": "WH-1000XM5.png"
+  }
+]

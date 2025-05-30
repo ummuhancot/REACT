@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Alice Johnson",
+    "age": 28,
+    "celebrated": false,
+    "image": "Woman.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Bob Smith",
+    "age": 24,
+    "celebrated": false,
+    "image": "Guy.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Felix",
+    "age": 3,
+    "celebrated": false,
+    "image": "Cat1.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Luna",
+    "age": 1,
+    "celebrated": false,
+    "image": "Cat2.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Cookie",
+    "age": 4,
+    "celebrated": false,
+    "image": "Dog.jpg"
+  }
+]

@@ -1,0 +1,28 @@
+.product-card {
+  background-color: aliceblue;
+  padding: 0.25rem 1.6rem;
+  border: 1px solid lightblue;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+
+  h3 {
+    color: steelblue;
+    font-size: 1.6rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+    background-color: lightslategray;
+    color: #fefefe;
+    display: inline-block;
+    padding: 0.2rem 1.6rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+  }
+}
