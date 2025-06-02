@@ -30,11 +30,16 @@ import { Stateless } from "./components/14-state/Stateless";
 import { Counter } from "./components/15-counter/Counter";
 import { CounterStateful } from "./components/15-counter/CounterStateful";
 import { UsersList } from "./components/16-people/UsersList";
+import { UseEffect1 } from "./components/17-side-effects/USeEffect1";
+import { UseEffect2 } from "./components/17-side-effects/UseEffect2";
+import { Clock3 } from "./components/18-Clock3/Clock3";
+
 
 const App = () => {
   return (
     <div>
-      {/* 
+      {
+        /* 
       <p>Hello App!</p>
       <HelloWorld></HelloWorld>
       <HelloReact></HelloReact>
@@ -76,9 +81,17 @@ const App = () => {
       <Stateful/>
       <Counter/>
       <CounterStateful/>
-      */}
-
       <UsersList/>
+      <UseEffect2/>
+      <UseEffect1/>
+      */
+     <Clock3/>
+
+
+
+
+
+      }
     </div>
   );
 };

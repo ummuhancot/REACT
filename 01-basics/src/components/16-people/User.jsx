@@ -1,10 +1,14 @@
 import React from "react";
 import { Button, Card, Col, Image, Row } from "react-bootstrap";
 import { PiConfetti, PiCake } from "react-icons/pi";
+
 export const User = (props) => {
-  const { name, age, image } = props;
+  const { id, name, age, image, celebrated, celebrateUser } = props;
   return (
-    <Card className="mb-4 mx-auto" style={{ maxWidth: "540px" }}>
+    <Card
+      className={`mb-4 mx-auto ${celebrated && "bg-info-subtle"}`}
+      style={{ maxWidth: "540px" }}
+    >
       <Card.Body>
         <Row className="align-items-center">
           <Col xs={3}>
@@ -18,12 +22,15 @@ export const User = (props) => {
           </Col>
         </Row>
       </Card.Body>
-      <Button
-        variant="link"
-        className="text-info position-absolute top-0 end-0 m-3"
-      >
-        <PiConfetti size={32} />
-      </Button>
+      {!celebrated && (
+        <Button
+          variant="link"
+          className="text-info position-absolute top-0 end-0 m-3"
+          onClick={() => celebrateUser(id)}
+        >
+          <PiConfetti size={32} />
+        </Button>
+      )}
     </Card>
   );
 };
