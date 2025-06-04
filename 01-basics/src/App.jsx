@@ -32,7 +32,13 @@ import { CounterStateful } from "./components/15-counter/CounterStateful";
 import { UsersList } from "./components/16-people/UsersList";
 import { UseEffect1 } from "./components/17-side-effects/USeEffect1";
 import { UseEffect2 } from "./components/17-side-effects/UseEffect2";
+import { UseEffect3 } from "./components/17-side-effects/UseEffect3";
 import { Clock3 } from "./components/18-Clock3/Clock3";
+import { CountryFilter } from "./components/19-country-filter/CountryFilter";
+import { UseRef } from "./components/20-useRef/UseRef";
+import ClassComp from "./components/21-class-components/ClassComponents";
+import { ProductStore } from "./components/22-api-products/ProductStore";
+import { RecipeBook } from "./components/23-recipe-book/RecipeBook";
 
 
 const App = () => {
@@ -84,11 +90,15 @@ const App = () => {
       <UsersList/>
       <UseEffect2/>
       <UseEffect1/>
+      <Clock3/>
+      <UseEffect3/>
+      <CountryFilter />
+      <UseRef/>
+      <ClassComp/>
+      <ProductStore/>
       */
-     <Clock3/>
 
-
-
+      <RecipeBook/>
 
 
       }
