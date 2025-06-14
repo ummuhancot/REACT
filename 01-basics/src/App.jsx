@@ -39,13 +39,18 @@ import { UseRef } from "./components/20-useRef/UseRef";
 import ClassComp from "./components/21-class-components/ClassComponents";
 import { ProductStore } from "./components/22-api-products/ProductStore";
 import { RecipeBook } from "./components/23-recipe-book/RecipeBook";
-
+import { Parent } from "./components/24-parent/Parent";
+import { Form1 } from "./components/25-forms/Form1";
+import { Form2 } from "./components/25-forms/Form2";
+import { Form3 } from "./components/25-forms/Form3";
+import { Form4 } from "./components/25-forms/Form4";
+import { Form5 } from "./components/25-forms/Form5";
+import { Form6 } from "./components/25-forms/Form6";
 
 const App = () => {
   return (
     <div>
-      {
-        /* 
+      {/* 
       <p>Hello App!</p>
       <HelloWorld></HelloWorld>
       <HelloReact></HelloReact>
@@ -62,46 +67,48 @@ const App = () => {
       <Styling04 />
       <Greetings />
       <Products />
-   
-          <Clock1 />
-      <Clock2 textColor="lime" backgroundColor="black" />
-      <Clock2 textColor="red" backgroundColor="black" />
-      <Clock2 textColor="steelblue" backgroundColor="aliceblue" /> 
-           <ImageGallery />
-      
-     <ProfileCard
+      <Clock1 />
+      <Clock2 textColor="lime" backgroundColor="black" hideTime="true" />
+      <Clock2 textColor="red" backgroundColor="black" hideTime="true" />
+      <Clock2 textColor="steelblue" backgroundColor="aliceblue" />
+      <Images />
+      <ImageGallery />
+      <ProfileCard
         avatar="profile.jpg"
         name="Bob Smith"
         location="California, US"
-        shots={1}
-        followers={9000000}
-        following={50000}
-      /> 
-      
-      <ReactBootstrap/>
-      <Icons/>
-      <EventHandler1/> 
-      <EventHandler2/>
-      <Shop/>
-      <Stateless />
-      <Stateful/>
-      <Counter/>
-      <CounterStateful/>
-      <UsersList/>
-      <UseEffect2/>
-      <UseEffect1/>
-      <Clock3/>
-      <UseEffect3/>
+        shots={10}
+        followers={5_678_900}
+        following={5000}
+      />
+      <ReactBootstrap />
+      <Icons />
+      <EventHandler1 />
+      <EventHandler2 />
+      <Shop />
+      <Stateless/>
+      <Stateful />
+      <Counter />
+      <CounterStateful />
+      <UsersList />
+      <UseEffect1 />
+      <Clock3 backgroundColor="aliceblue" textColor="steelBlue" />
+      <UseEffect3 />
       <CountryFilter />
-      <UseRef/>
-      <ClassComp/>
-      <ProductStore/>
-      */
+      <UseRef />
+      <ClassComp />
+      <ProductStore />
+      <RecipeBook />
+      <Parent />
+      <Form1 />
+      <Form2 />
+      <Form3 />
+      <Form4 />
+      <Form5 />
+      <Form6 />
+      */}
 
-      <RecipeBook/>
-
-
-      }
+      {/* Uncomment the above lines to see other components */}
     </div>
   );
 };

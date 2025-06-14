@@ -23,7 +23,7 @@ export const SingleProduct = (props) => {
           className="fs-6"
           style={{ position: "absolute", top: "10px", left: "10px" }}
         >
-          {availabilityStatus === "In Stock" ? "" : availabilityStatus}
+            {availabilityStatus === "In Stock" ? "" : availabilityStatus}
         </Badge>
         <Badge
           bg="dark"

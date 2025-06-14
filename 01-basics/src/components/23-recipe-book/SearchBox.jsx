@@ -4,7 +4,7 @@ import "./SearchBox.scss";
 export const SearchBox = (props) => {
   return (
     <div className="search-box">
-      <h1>Turkish Cuisine</h1>
+      <h1>Recipe Book</h1>
       <FormControl
         type="search"
         placeholder="Search for Recipes"
